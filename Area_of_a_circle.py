@@ -1,3 +1,4 @@
 r=int(input())
-area=3.14*r*r
-print("%.2f" %area);
+pi=3.14
+x=pi*r*r
+print("{:.2f}".format(x))
